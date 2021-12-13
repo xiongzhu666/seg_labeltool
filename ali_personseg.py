@@ -41,7 +41,6 @@ class Sample:
 
 
 auth = oss2.Auth('****', '*********')
-#client = Sample.create_client('LTAI5t99ssG7EPSeiVn6scJB', 'W2Yr6pLQ3cruVaiJm2j9a0WHYIaPdd')
 client = AcsClient('****', '****', 'cn-shanghai')
 bucket = oss2.Bucket(auth, 'http://oss-cn-shanghai.aliyuncs.com',
                      '1803151818-sum')
